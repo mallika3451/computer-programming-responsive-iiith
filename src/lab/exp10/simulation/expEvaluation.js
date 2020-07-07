@@ -906,3 +906,9 @@ window.view = {
 } 
 
 window.onload = function () { view.init() }
+function edit() {
+	document.getElementById("a").value = "0";
+	document.getElementById("b").value = "0";
+	document.getElementById("c").value = "0";
+	document.getElementById("d").value = "0";
+}
